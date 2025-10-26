@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/">
+    <a id="inicio" href="index.html">Inicio</a>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #inicio{
+            text-decoration: none;
+            color: green;
+        }
+        #inicio:hover{
+            color: greenyellow;
+        }
+    </style>
+    <script>
+        function cambiarTexto(){
+         document.getElementById('titulo').innerText="¡Buenos días alegria!";
+         document.getElementById('btn').value=texto;
+        }
+    </script>
+</head>
+<body>
+    <header class="text-bg-primary-subtle">
+        <h1 id="titulo" >Página original</h1>
+        <input id="btn" type="button" value="Cambiar Texto" onclick="cambiarTexto();">
+    </header>
+</body>
+</html>
