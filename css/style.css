@@ -1,0 +1,40 @@
+section{
+    background-color: rgb(104, 99, 99);
+    
+}
+header{
+    text-align: center;
+    background-color: rgb(243, 253, 208);
+    width: 1505px;
+    height: 200px;
+}
+section ul li{
+    list-style: none;
+}
+section{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    color: beige;
+}
+section ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+section ul li a:hover{
+    color: aquamarine;
+}
+section{
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+#inicio a{
+    text-decoration: none;
+    color: green;
+
+}
